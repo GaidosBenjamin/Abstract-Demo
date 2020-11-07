@@ -9,7 +9,7 @@ public class GenericDemo {
     public static void main(String[] args) {
         List<Human> humans = createStudentList()
                 .stream()
-                .map(GenericDemo::toHuman)
+                .map(student -> toHuman(student))
                 .collect(Collectors.toList());
     }
 
