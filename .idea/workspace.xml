@@ -32,9 +32,7 @@
       <change afterPath="$PROJECT_DIR$/../../library/app/src/main/resources/application.yml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../library/model/build.gradle" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../library/service/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/PasswordRules.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/Box.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Dockerfile" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../api/pom.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../api/src/main/java/com/rest/api/controller/GroupControllerAPI.java" beforeDir="false" />
@@ -88,6 +86,10 @@
       <change beforePath="$PROJECT_DIR$/../../impl/src/test/java/com/rest/impl/exceptions/ExceptionAdviceTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../mvnw" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/human/app/GenericDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/human/app/GenericDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/GenericDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/GenericDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../pom.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -103,7 +105,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1jyd9r6Fkm6dDBMgRBkH629BeNL" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -113,7 +115,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="RunManager" selected="Application.PasswordRules">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="app.GenericDemo" />
       <module name="human" />
@@ -143,8 +145,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PasswordRules" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.PasswordRules" />
       </list>
     </recent_temporary>
   </component>
@@ -159,27 +161,32 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2163" y="240" width="575" height="626" key="#com.intellij.ide.util.MemberChooser" timestamp="1604781136501">
+    <state x="2163" y="240" width="575" height="626" key="#com.intellij.ide.util.MemberChooser" timestamp="1604869102745">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state x="2163" y="240" width="575" height="626" key="#com.intellij.ide.util.MemberChooser/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1604781136501" />
-    <state width="1816" height="278" key="GridCell.Tab.0.bottom" timestamp="1604788559043">
+    <state x="2163" y="240" width="575" height="626" key="#com.intellij.ide.util.MemberChooser/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1604869102745" />
+    <state x="2088" y="302" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604868640311">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state width="1816" height="278" key="GridCell.Tab.0.bottom/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1604788559043" />
-    <state width="1816" height="278" key="GridCell.Tab.0.center" timestamp="1604788559043">
+    <state x="2088" y="302" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1604868640311" />
+    <state width="1816" height="278" key="GridCell.Tab.0.bottom" timestamp="1604869189843">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state width="1816" height="278" key="GridCell.Tab.0.center/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1604788559043" />
-    <state width="1816" height="278" key="GridCell.Tab.0.left" timestamp="1604788559043">
+    <state width="1816" height="278" key="GridCell.Tab.0.bottom/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1604869189843" />
+    <state width="1816" height="278" key="GridCell.Tab.0.center" timestamp="1604869189842">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state width="1816" height="278" key="GridCell.Tab.0.left/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1604788559043" />
-    <state width="1816" height="278" key="GridCell.Tab.0.right" timestamp="1604788559043">
+    <state width="1816" height="278" key="GridCell.Tab.0.center/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1604869189842" />
+    <state width="1816" height="278" key="GridCell.Tab.0.left" timestamp="1604869189842">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state width="1816" height="278" key="GridCell.Tab.0.right/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1604788559043" />
+    <state width="1816" height="278" key="GridCell.Tab.0.left/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1604869189842" />
+    <state width="1816" height="278" key="GridCell.Tab.0.right" timestamp="1604869189843">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1816" height="278" key="GridCell.Tab.0.right/1366.0.1920.1080/0.27.1366.741@1366.0.1920.1080" timestamp="1604869189843" />
   </component>
 </project>

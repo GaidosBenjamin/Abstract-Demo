@@ -11,6 +11,20 @@ public class GenericDemo {
                 .stream()
                 .map(student -> toHuman(student))
                 .collect(Collectors.toList());
+
+        List<Box<Human>> boxHumans = createStudentList()
+                .stream()
+                .map(student -> toBox(student))
+                .collect(Collectors.toList());
+
+        List<Box<? extends Human>> boundedBoxHumans = createStudentList()
+                .stream()
+                .map(student -> toBoundedBox(student))
+                .collect(Collectors.toList());
+
+        for(Box<? extends Human> b : boxHumans) {
+            System.out.println(b.toString());
+        }
     }
 
     private static List<Student> createStudentList() {
@@ -23,5 +37,13 @@ public class GenericDemo {
 
     private static Human toHuman(Student student) {
         return student;
+    }
+
+    private static Box<?> toBoundedBox(Student student) {
+        return new Box<>(student);
+    }
+
+    private static Box<Human> toBox(Student student) {
+        return new Box<>(student);
     }
 }
